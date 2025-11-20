@@ -1,0 +1,4 @@
+Name:Venkat
+Class:MCA
+Place:Pallavaram
+section:c
