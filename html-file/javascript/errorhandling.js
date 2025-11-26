@@ -14,3 +14,12 @@ try {
 } catch (err) {
     throw "Error: While setting precision to x";
 }
+
+var x = 5;
+var y = 10;
+try {
+    x = y + 1 * 2;
+    console.log(x);
+} catch (err) {
+    throw err;
+}
