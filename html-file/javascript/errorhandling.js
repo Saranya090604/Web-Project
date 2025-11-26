@@ -6,3 +6,11 @@ try {
 } catch (err) {
     console.log (err);
 }
+
+var x = 11;
+try {
+    x.toPrecision(5);
+    console.log(x);
+} catch (err) {
+    throw "Error: While setting precision to x";
+}
