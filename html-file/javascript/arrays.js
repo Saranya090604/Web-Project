@@ -39,6 +39,10 @@
 //});
 //console.log(axis);
 
-const num1 = [1, 2, 3];
-const num2 = [4, 56, 62];
-console.log(num1 + num2);
+//const num1 = [1, 2, 3];
+//const num2 = [4, 56, 62];
+//console.log(num1 + num2);
+
+const numbers = [1, 2, 3, 4, 5];
+numbers.splice(3, 2, 6, 7, 8);
+console.log(numbers);
