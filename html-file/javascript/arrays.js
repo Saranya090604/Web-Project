@@ -21,10 +21,14 @@
 //movies[9] = "";
 //console.log("movies");
 
-const movies = new Array("Audi", "Honda", "kia");
-const age = new Array(12, 22, 43);
-const mixedItems = new Array(movies, age);
-console.log("mixedItems");
+//const movies = new Array("Audi", "Honda", "kia");
+//const age = new Array(12, 22, 43);
+//const mixedItems = new Array(movies, age);
+//console.log("mixedItems");
 
-
+const fruits = ["orange", "Apple", "kiwi", "Mango"];
+console.log(fruits);
+fruits.sort();
+fruits.reverse();
+console.log(fruits);
 
