@@ -26,9 +26,15 @@
 //const mixedItems = new Array(movies, age);
 //console.log("mixedItems");
 
-const fruits = ["orange", "Apple", "kiwi", "Mango"];
-console.log(fruits);
-fruits.sort();
-fruits.reverse();
-console.log(fruits);
+//const fruits = ["orange", "Apple", "kiwi", "Mango"];
+//console.log(fruits);
+//fruits.sort();
+//fruits.reverse();
+//console.log(fruits);
 
+const axis = [22.2, 12.9, 1, 4, 100.45];
+axis.sort(function(a, b) {
+    console.log(a, b, a-b);
+    return a - b;
+});
+console.log(axis);
