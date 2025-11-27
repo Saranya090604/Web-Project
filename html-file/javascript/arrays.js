@@ -16,10 +16,15 @@
 //movies[4] = "";
 //movies[5] = "";
 //movies[6] = "";
-movies[7] = "";
-movies[8] = "";
-movies[9] = "";
-console.log("movies");
+//movies[7] = "";
+//movies[8] = "";
+//movies[9] = "";
+//console.log("movies");
+
+const movies = new Array("Audi", "Honda", "kia");
+const age = new Array(12, 22, 43);
+const mixedItems = new Array(movies, age);
+console.log("mixedItems");
 
 
 
