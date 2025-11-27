@@ -32,9 +32,13 @@
 //fruits.reverse();
 //console.log(fruits);
 
-const axis = [22.2, 12.9, 1, 4, 100.45];
-axis.sort(function(a, b) {
-    console.log(a, b, a-b);
-    return a - b;
-});
-console.log(axis);
+//const axis = [22.2, 12.9, 1, 4, 100.45];
+//axis.sort(function(a, b) {
+  //  console.log(a, b, a-b);
+    //return a - b;
+//});
+//console.log(axis);
+
+const num1 = [1, 2, 3];
+const num2 = [4, 56, 62];
+console.log(num1 + num2);
