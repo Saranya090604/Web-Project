@@ -1,5 +1,10 @@
-const carBrands = ["BMW", "AUDI", "JAGUAR"];
-carBrands[2] = "Honda";
-console.log(carBrands[0]);
-console.log(carBrands[1]);
-console.log(carBrands[2]);
+
+
+const bikeBrands = ["BMW", "AUDI", "JAGQUAR"];
+bikeBrands.forEach ((item, index) => {
+    if (item === "jaguar") {
+        bikeBrands[index] = "Honda";
+    }
+});
+console.log(bikeBrands);
+
