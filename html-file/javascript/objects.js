@@ -7,4 +7,8 @@
 //console.log(person);
 
 const school = new object();
-console.log(school);
+school.name = "SRV public school";
+school.grade = "A+";
+school.address = "samayapuram, India";
+const school2 = new object(undefined);
+console.log(school2);
