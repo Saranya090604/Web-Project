@@ -1,11 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>javascript</title>
+    <style>
+        .flexcontainer {
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            height: 300px;
+        }
+        input {
+            border: none;
+            border-radius: 12px;
+            border: 1px solid darkmagenta;
+            padding: 10px;
+        }
+        input:focus {
+            background-color: white;
+        }
+        button {
+            border: none;
+            border: 1px solid darkmagenta;
+            background-color: black;
+            border-radius: 12px;
+            padding: 10px;
+            width: 150px;
+            color:bisque;
+        }
+        button hover {
+            background-color: blueviolet;
+            color:white;
+            cursor: pointer;
+        }
+    </style>
 </head>
 <body>
-    <h1></h1>
-    <div></div>
-    <script src = "javascript/dynamic.js"></script>
+    <form class = "flexcontainer">
+        <div>
+            <input type = "text" placeholder="Enter user-mail" />
+        </div>
+        <div>
+            <input type = "Password" placeholder="Enter user-password"/>
+        </div>
+        <div>
+            <button type = "submit">Login</button>
+        </div>
+    </form>
 </body>
 </html>
