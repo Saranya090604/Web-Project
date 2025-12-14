@@ -1,0 +1,9 @@
+console.log(window.document);
+console.log(window.localStorage);
+console.log(window.cookie);
+console.log(window.console);
+console.log(window.close);
+console.log(window.alert);
+console.log(window.prompt);
+console.log(window.confirm);
+console.log(window.css);
