@@ -17,5 +17,9 @@
   .para3{
     color:blue;
     text-decoration: dashed;
-  }
+  } 
+h2,p{
+    text align: center;
+    color: black;
+}
  
