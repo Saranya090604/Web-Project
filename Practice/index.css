@@ -2,7 +2,15 @@
     color: red;
     height: 50%;
 } */
-p{
+/* p{
     color:blueviolet;
     text-align:center;
-}
+} */
+ #para1{
+    text-align:center;
+    color:brown;
+ }
+ .para2{
+    color:aqua;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
