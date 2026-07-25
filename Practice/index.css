@@ -64,8 +64,10 @@ div.second {
 div.third {
   background: rgba(0, 0, 100, 0.6);
 } */
- body {
+ body p {
     background-image: url("paper\ image.webp");
- }
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
 
  
