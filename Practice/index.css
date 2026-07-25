@@ -9,7 +9,7 @@
  /* #para1{
     text-align:center;
     color:brown;
- }
+ /* }
  .para2{
     color:aqua;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -21,10 +21,19 @@
 h2,p{
     text align: center;
     color: black;
-}
-body{
-background-color : lightblue;
-}
+} */
+ /* body {
+    background-color: darkorchid;
+ } */
+  h1 {
+    background-color: lightcoral;
+  }
+  p {
+    background-color: maroon;
+  }
+  h2 {
+    background-color: darkgoldenrod;
+  }
 
 
  
