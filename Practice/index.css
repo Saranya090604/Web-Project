@@ -34,7 +34,7 @@ h2,p{
   h2 {
     background-color: darkgoldenrod;
   } */
-div {
+/* div {
   background-color: orangered;
 }
 
@@ -48,6 +48,21 @@ div.second {
 
 div.third {
   opacity: 0.6;
+} */
+ div {
+  background: rgb(0, 0, 157);
+}
+
+div.first {
+  background: rgba(0, 0, 145, 0.1);
+}
+
+div.second {
+  background: rgba(0, 0, 120, 0.3);
+}
+
+div.third {
+  background: rgba(0, 0, 100, 0.6);
 }
 
  
