@@ -49,7 +49,7 @@ div.second {
 div.third {
   opacity: 0.6;
 } */
- div {
+ /* div {
   background: rgb(0, 0, 157);
 }
 
@@ -63,6 +63,9 @@ div.second {
 
 div.third {
   background: rgba(0, 0, 100, 0.6);
-}
+} */
+ body {
+    background-image: url("paper\ image.webp");
+ }
 
  
