@@ -211,7 +211,7 @@ p.one {
   border-bottom: 6px solid red;
   background-color: lightgrey;
 } */
- p.normal {
+ /* p.normal {
   border: 2px solid darkgreen;
   padding: 5px;
 }
@@ -232,4 +232,8 @@ p.round3 {
   border: 2px solid rgb(195, 13, 86);
   border-radius: 12px;
   padding: 5px;
+} */
+ div {
+  margin: 70px;
+  border: 1px solid #4CAF50;
 }
