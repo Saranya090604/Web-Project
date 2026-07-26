@@ -140,7 +140,21 @@ p.three {
   border-style: dotted;
   border-color: blue;
 }  */
-  p.one {
+/* p.one {
   border-style: solid;
   border-color: red green blue yellow; /* red top, green right, blue bottom and yellow left */
+/* }  */
+p.one {
+  border-style: solid;
+  border-color: #ff0000; /* red */
+}
+
+p.two {
+  border-style: solid;
+  border-color: #0000ff; /* blue */
+}
+
+p.three {
+  border-style: solid;
+  border-color: #bbbbbb; /* grey */
 }
