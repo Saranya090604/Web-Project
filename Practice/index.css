@@ -144,17 +144,44 @@ p.three {
   border-style: solid;
   border-color: red green blue yellow; /* red top, green right, blue bottom and yellow left */
 /* }  */
-p.one {
+/* p.one {
   border-style: solid;
   border-color: #ff0000; /* red */
+/* }
+p.two {
+  border-style: solid;
+  border-color: #0000ff; /* blue */
+/* } */
+/* p.three {
+  border-style: solid;
+  border-color: #bbbbbb; /* grey */
+/* }  */
+p.one {
+  border-style: solid;
+  border-color: rgb(255, 0, 0); /* red */
 }
 
 p.two {
   border-style: solid;
-  border-color: #0000ff; /* blue */
+  border-color: rgb(0, 0, 255); /* blue */
 }
 
 p.three {
   border-style: solid;
-  border-color: #bbbbbb; /* grey */
+  border-color: rgb(187, 187, 187); /* grey */
+}
+
+p.four {
+  border-style: solid;
+  border-color: hsl(0, 100%, 50%); /* red */
+}
+
+p.five {
+  border-style: solid;
+  border-color: hsl(240, 100%, 50%); /* blue */
+}
+
+p.six {
+  border-style: solid;
+  border-color: hsl(0, 0%, 73%); /* grey */
 }
