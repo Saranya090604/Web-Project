@@ -156,32 +156,54 @@ p.two {
   border-style: solid;
   border-color: #bbbbbb; /* grey */
 /* }  */
-p.one {
+/* p.one {
   border-style: solid;
   border-color: rgb(255, 0, 0); /* red */
-}
+/* } */
 
-p.two {
+/* p.two {
   border-style: solid;
-  border-color: rgb(0, 0, 255); /* blue */
+  border-color: rgb(0, 0, 255);
 }
 
 p.three {
   border-style: solid;
-  border-color: rgb(187, 187, 187); /* grey */
+  border-color: rgb(187, 187, 187); 
 }
 
 p.four {
   border-style: solid;
-  border-color: hsl(0, 100%, 50%); /* red */
+  border-color: hsl(0, 100%, 50%); 
 }
 
 p.five {
   border-style: solid;
-  border-color: hsl(240, 100%, 50%); /* blue */
+  border-color: hsl(240, 100%, 50%); 
 }
 
 p.six {
   border-style: solid;
-  border-color: hsl(0, 0%, 73%); /* grey */
+  border-color: hsl(0, 0%, 73%); 
+}  */
+  body {
+  text-align: center;
+}
+
+p.four {
+  border-style: dotted solid double dashed;
+}
+
+
+p.three {
+  border-style: dotted solid double;
+}
+
+
+p.two {
+  border-style: dotted solid;
+}
+
+
+p.one {
+  border-style: dotted;
 }
