@@ -185,7 +185,7 @@ p.six {
   border-style: solid;
   border-color: hsl(0, 0%, 73%); 
 }  */
-  body {
+  /* body {
   text-align: center;
 }
 
@@ -206,4 +206,8 @@ p.two {
 
 p.one {
   border-style: dotted;
+} */
+ p {
+  border-bottom: 6px solid red;
+  background-color: lightgrey;
 }
