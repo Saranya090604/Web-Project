@@ -263,15 +263,9 @@ p.ex1 {
   padding-right: 30px;
   padding-bottom: 50px;
   padding-left: 80px;
-} */
- div.ex1 {
-  width: 300px;
-  background-color: yellow;
-}
-
-div.ex2 {
-  width: 300px;
-  padding: 25px;
-  box-sizing: border-box;
-  background-color: lightblue;
+} */ 
+ div {
+  height: 100px;
+  width: 500px;
+  background-color: powderblue;
 }
