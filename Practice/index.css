@@ -302,7 +302,7 @@ p.ex3 {
 p.ex4 {
   outline-width: 8px;
 } */
- p {
+ /* p {
   border: 1px solid black;
   padding: 5px;
 }
@@ -325,4 +325,24 @@ p.ex3 {
 p.ex4 {
   outline-style: solid;
   outline-color: invert;
+} */
+ p.ex1 {
+  border: 2px solid black;
+  padding: 5px;
+  outline-style: solid;
+  outline-color: #ff0000; /* red */
+}
+
+p.ex2 {
+  border: 2px solid black;
+  padding: 5px;
+  outline-style: dotted;
+  outline-color: #0000ff; /* blue */
+}
+
+p.ex3 {
+  border: 2px solid black;
+  padding: 5px;
+  outline-style: solid;
+  outline-color: #bbbbbb; /* grey */
 }
