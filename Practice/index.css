@@ -381,9 +381,17 @@ p.ex5 {
   outline: thick solid green;
   border-radius: 10px;
 } */
+ /* p {
+  margin: 30px;
+  padding: 5px;
+  border: 1px solid black;
+  outline: 3px solid red;
+  outline-offset: 15px;
+} */
  p {
   margin: 30px;
   padding: 5px;
+  background:yellow;
   border: 1px solid black;
   outline: 3px solid red;
   outline-offset: 15px;
