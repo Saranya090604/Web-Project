@@ -326,23 +326,29 @@ p.ex4 {
   outline-style: solid;
   outline-color: invert;
 } */
- p.ex1 {
+ /* p.ex1 {
   border: 2px solid black;
   padding: 5px;
   outline-style: solid;
-  outline-color: #ff0000; /* red */
+  outline-color: #ff0000; 
 }
-
 p.ex2 {
   border: 2px solid black;
   padding: 5px;
   outline-style: dotted;
-  outline-color: #0000ff; /* blue */
+  outline-color: #0000ff;
 }
-
 p.ex3 {
   border: 2px solid black;
   padding: 5px;
   outline-style: solid;
-  outline-color: #bbbbbb; /* grey */
+  outline-color: #bbbbbb;
+} */
+ p {
+  padding: 5px;
 }
+
+p.ex1 {outline: dashed;}
+p.ex2 {outline: dotted red;}
+p.ex3 {outline: 7px solid yellow;}
+p.ex4 {outline: thick ridge pink;}
