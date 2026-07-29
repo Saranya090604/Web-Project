@@ -544,7 +544,7 @@ p {
   text-decoration-style: double;
   text-decoration-thickness: 5px;  
 } */
- p.uppercase {
+ /* p.uppercase {
   text-transform: uppercase;
 }
 
@@ -554,4 +554,13 @@ p.lowercase {
 
 p.capitalize {
   text-transform: capitalize;
+} */
+.p1 {
+  font-family: "Times New Roman", Times, serif;
+}
+.p2 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.p3 {
+  font-family: "Lucida Console", "Courier New", monospace;
 }
