@@ -474,7 +474,7 @@ h3 {
 p.ex {
   text-decoration: overline underline;
 } */
- h1 {
+ /* h1 {
   text-decoration-line: overline;
   text-decoration-color: red;
 }
@@ -492,4 +492,34 @@ h3 {
 p {
   text-decoration-line: overline underline;
   text-decoration-color: purple;  
+} */
+ h1 {
+  text-decoration-line: underline;
+  text-decoration-style: solid; 
+}
+
+h2 {
+  text-decoration-line: underline;
+  text-decoration-style: double;
+}
+
+h3 {
+  text-decoration-line: underline;
+  text-decoration-style: dotted;  
+}
+
+p.ex1 {
+  text-decoration-line: underline;
+  text-decoration-style: dashed;  
+}
+
+p.ex2 {
+  text-decoration-line: underline;
+  text-decoration-style: wavy;  
+}
+
+p.ex3 {
+  text-decoration-line: underline;
+  text-decoration-color: red;  
+  text-decoration-style: wavy;  
 }
