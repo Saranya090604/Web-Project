@@ -396,7 +396,7 @@ p.ex5 {
   outline: 3px solid red;
   outline-offset: 15px;
 } */
- div {
+ /* div {
   border: 1px solid gray;
   padding: 8px;
 }
@@ -413,4 +413,15 @@ p {
 a {
   text-decoration: none;
   color: #008CBA;
+} */
+ body {
+  color: blue;
+}
+
+h1 {
+  color: green;
+}
+
+h2 {
+  color: red;
 }
