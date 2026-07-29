@@ -436,7 +436,7 @@ p.b {
 p.c {
   text-align-last: justify;
 } */
- img.a {
+ /* img.a {
   vertical-align: baseline;
 }
 
@@ -454,4 +454,8 @@ img.d {
 
 img.e {
   vertical-align: super;
+} */
+p.ex1 {
+  direction: rtl;
+  unicode-bidi: bidi-override;
 }
