@@ -493,7 +493,7 @@ p {
   text-decoration-line: overline underline;
   text-decoration-color: purple;  
 } */
- h1 {
+ /* h1 {
   text-decoration-line: underline;
   text-decoration-style: solid; 
 }
@@ -522,4 +522,25 @@ p.ex3 {
   text-decoration-line: underline;
   text-decoration-color: red;  
   text-decoration-style: wavy;  
+} */
+ h1 {
+  text-decoration-line: underline;
+  text-decoration-thickness: auto;  /* this is default */
+}
+
+h2 {
+  text-decoration-line: underline;
+  text-decoration-thickness: 5px;
+}
+
+h3 {
+  text-decoration-line: underline;
+  text-decoration-thickness: 25%;
+}
+
+p {
+  text-decoration-line: underline;
+  text-decoration-color: red;  
+  text-decoration-style: double;
+  text-decoration-thickness: 5px;  
 }
