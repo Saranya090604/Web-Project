@@ -570,7 +570,7 @@ font-family: Tahoma, Verdana, sans-serif;
 /* body {
   font-family: Verdana, sans-serif;
 } */
- p.normal {
+ /* p.normal {
   font-style: normal;
 }
 
@@ -580,4 +580,19 @@ p.italic {
 
 p.oblique {
   font-style: oblique;
+} */
+ p.normal {
+  font-weight: normal;
+}
+
+p.light {
+  font-weight: lighter;
+}
+
+p.thick {
+  font-weight: bold;
+}
+
+p.thicker {
+  font-weight: 900;
 }
