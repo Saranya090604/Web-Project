@@ -567,6 +567,17 @@ p.capitalize {
  /* p {
 font-family: Tahoma, Verdana, sans-serif;
 } */
-body {
+/* body {
   font-family: Verdana, sans-serif;
+} */
+ p.normal {
+  font-style: normal;
+}
+
+p.italic {
+  font-style: italic;
+}
+
+p.oblique {
+  font-style: oblique;
 }
