@@ -564,6 +564,9 @@ p.capitalize {
 .p3 {
   font-family: "Lucida Console", "Courier New", monospace;
 } */
- p {
+ /* p {
 font-family: Tahoma, Verdana, sans-serif;
+} */
+ body {
+  font-family: Arial, sans-serif;
 }
