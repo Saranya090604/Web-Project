@@ -596,7 +596,7 @@ p.thick {
 p.thicker {
   font-weight: 900;
 } */
- h1 {
+/* h1 {
   font-size: 40px;
 }
 
@@ -606,4 +606,19 @@ h2 {
 
 p {
   font-size: 16px;
+} */
+body {
+  font-size: 16px; /* Base font size */
+}
+
+h1 {
+  font-size: 2.5em; /* 2.5 * 16 = 40px */
+}
+
+h2 {
+  font-size: 1.875em; /* 1.875 * 16 = 30px */
+}
+
+p {
+  font-size: 1em; /* 1 * 16 = 16px */
 }
