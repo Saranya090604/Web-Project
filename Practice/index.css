@@ -581,7 +581,7 @@ p.italic {
 p.oblique {
   font-style: oblique;
 } */
- p.normal {
+ /* p.normal {
   font-weight: normal;
 }
 
@@ -595,4 +595,15 @@ p.thick {
 
 p.thicker {
   font-weight: 900;
+} */
+ h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+p {
+  font-size: 16px;
 }
