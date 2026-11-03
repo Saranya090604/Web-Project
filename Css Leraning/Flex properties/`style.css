@@ -1,0 +1,19 @@
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.flex-item {
+  background-color: darkcyan;
+  border: 2px solid lightsalmon;
+  padding: 20px;
+}
+.flex-container {
+  background-color: brown;
+  display: flex;
+  width: 100%;
+}
+.item-2 {
+  flex-grow: 1;
+}
+/* .item-3 {
+  flex-shrink: 1;
+} */

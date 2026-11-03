@@ -1,0 +1,27 @@
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.box {
+  max-width: 400px;
+  margin: 20px;
+  padding: 20px;
+  /* border: 5px solid lightgreen; */
+  border-width: 5px;
+  border-style: solid;
+  border-color: lightsalmon;
+}
+.box-1 {
+  border: none;
+  border-top: solid darkorange 4px;
+  border-bottom: solid darkgreen 4px;
+  border-left: solid orangered 4px;
+  border-right: solid blueviolet 4px;
+}
+.box-2 {
+  border-radius: 20px;
+}
+.box-3 {
+  border: darkslateblue solid 5px;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}

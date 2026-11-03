@@ -1,0 +1,17 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+}
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  /* flex-wrap: wrap; */
+  /* gap: 10px; */
+  row-gap: 10px;
+  column-gap: 10px;
+}
+.flex-item {
+  height: 200px;
+  width: 200px;
+  background-color: cadetblue;
+  border: 1px solid black;
+}

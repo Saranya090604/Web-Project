@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Times New Roman", Times, serif;
+  line-height: 2;
+}
+.container {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 0 30px;
+}
+p {
+  margin-bottom: 1rem;
+}
+input {
+  width: 100px;
+  padding: 10px;
+}
+
+p::first-letter {
+  font-size: 2rem;
+  color: crimson;
+  padding-right: 3px;
+  font-weight: bold;
+}
+p::first-line {
+  color: blueviolet;
+}
+p::selection {
+  background-color: chocolate;
+}
+
+input::placeholder {
+  background-color: cornflowerblue;
+  color: red;
+}
+
+input::file-selector-button {
+  /* background-color: aquamarine; */
+  font-weight: bold;
+  border: 2px solid pink;
+}
+
+li::marker {
+  content: "\1F61A";
+}

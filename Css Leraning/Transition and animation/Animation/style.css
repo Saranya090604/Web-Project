@@ -1,0 +1,25 @@
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.container {
+  max-width: 1000px;
+  margin: 30px auto;
+}
+.box1 {
+  width: 100px;
+  height: 100px;
+  background-color: deeppink;
+  animation: animate1;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+}
+@keyframes animate1 {
+  from {
+    width: 100px;
+    background-color: deeppink;
+  }
+  to {
+    width: 500px;
+    background-color: darkkhaki;
+  }
+}

@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+/* @media screen and (max-width: 1200px) {
+  .widescreen {
+    background-color: aqua;
+  }
+}
+@media screen and (max-width: 992px) {
+  .tablet {
+    background-color: blueviolet;
+  }
+}
+@media screen and (max-width: 768px) {
+  .normal {
+    background-color: crimson;
+    border: 1px solid black;
+  }
+}
+@media (max-height: 400px) {
+  .height {
+    background-color: darkgreen;
+  }
+} */
+@media (min-width: 770px) and (max-width: 990px) {
+  body {
+    background-color: coral;
+  }
+}

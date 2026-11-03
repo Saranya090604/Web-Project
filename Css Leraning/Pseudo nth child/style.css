@@ -1,0 +1,32 @@
+boyd {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+/* style the first li of its parent */
+ul li:nth {
+  background-color: blueviolet;
+}
+
+/* style the first li of its parent */
+/* ul li:last-child {
+  background-color: brown;
+} */
+
+/* style the seventh li of its parent */
+/* ul li:nth-child(7) {
+  background-color: lightseagreen;
+} */
+
+/* style the first,fourth,eigth,twelve,sixteen,and twenty th li of its parent */
+/* ul li:nth-child(5n) {
+  background-color: chartreuse;
+} */
+
+/* style the odd number od child */
+/* ul li:nth-child(odd) {
+  background-color: darkgoldenrod;
+} */
+
+/* style the even number of child */
+/* ul li:nth-child(even) {
+  background-color: orangered;
+} */

@@ -1,0 +1,17 @@
+body{
+    font-family:'Times New Roman', serif;
+    line-height: 2;
+}
+a{
+    text-decoration: none;
+}
+h2{
+    font-size: xx-large;
+    font-weight: bold;
+    font-style: italic;
+    font-variant: normal;
+    word-spacing: 3px;
+    letter-spacing: 5px;
+    text-align: center;
+    text-transform: capitalize;
+}

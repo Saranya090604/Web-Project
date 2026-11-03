@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Times New Roman", Times, serif;
+  line-height: 2;
+}
+.container {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 2rem;
+}
+/* > child selector */
+/* get only the paragraph that are direct children of container */
+/* .container > p {
+  font-weight: bold;
+  background-color: palevioletred;
+}
+.container > ul {
+  background-color: blueviolet;
+}
+.container > a {
+  background-color: chartreuse;
+} */
+
+/* sibling combinators */
+/* general combinator - + symbol */
+/* adjacent combinator - ~ */
+/* get the immediate sibling link after h1 tag */
+/* .container h1 + a {
+  background-color: coral;
+}
+/* get all the links that are sibling that comes after h1 */
+/* .container h1 ~ a {
+  background-color: cornflowerblue; */
+/* } */
+*/
+/* get all siblings div to the direct  ul children of the container */
+.container > ul ~ div {
+  background-color: crimson;
+}

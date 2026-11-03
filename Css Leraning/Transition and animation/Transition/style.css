@@ -1,0 +1,22 @@
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.container {
+  max-width: 600px;
+  margin: 30px auto;
+}
+.btn {
+  padding: 10px 20px;
+  background-color: lightgreen;
+  color: black;
+  border-radius: 5px;
+  border: none;
+  width: 200px;
+  cursor: pointer;
+  transition: background-color 3s ease-in-out;
+}
+.btn:hover {
+  color: rgb(67, 78, 0);
+  background-color: darkmagenta;
+  width: 300px;
+}

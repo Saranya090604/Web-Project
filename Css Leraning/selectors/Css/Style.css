@@ -1,0 +1,44 @@
+/* type selectors */
+/* h2{
+    color:cyan;
+    font-size: medium;
+}
+a{
+    color:chocolate;
+    text-decoration: none;
+} */
+/* class selectors */
+/* .card1{
+    color:darkgreen;
+}
+.card2{
+    color:darkorchid;
+}
+.card3{
+    color:brown;
+} */
+
+/* id selector */
+/* #box1{
+    max-width:300px;
+    margin: 100px;
+    padding: 80px;
+    color:coral;
+} */
+/* body{
+    font-family: Arial, Helvetica, sans-serif;
+    border: 5px solid darkorchid;
+} */
+ 
+/* descendent style */
+/* #box1 p{
+    background-color: cornflowerblue;
+}
+#box1 a{
+    background-color: darkgoldenrod;
+} */
+/* multiple selector */
+/* .card1,
+.card2{
+    font-size:50px;
+} */
