@@ -12,7 +12,7 @@ let x;
 // string object
 // Wrapper class
 // created new string object
-const s = new String("waka waka");
+const s = new String("pakka pakka");
 // x = s.length;
 
 // Access the value
