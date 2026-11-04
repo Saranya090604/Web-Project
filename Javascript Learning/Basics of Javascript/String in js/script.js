@@ -35,7 +35,7 @@ const s = new String("pakka pakka");
 // extracts a part of  a string and returns a new string
 // slice()
 s.slice();
-// trim
+// trim  --> remove excess space
 // replace
 // split
 // include
