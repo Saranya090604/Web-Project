@@ -22,5 +22,13 @@ const person = {
 // x = person.name = "Saran";
 
 // Deleting a property
-x = delete person.age;
-console.log(person);
+// x = delete person.age;
+// console.log(person);
+
+// Functions
+// defining a method
+person.letmeGreet = function () {
+  console.log(`Hello , my name is ${this.name}`);
+};
+// calling a method
+console.log(person.letmeGreet());
