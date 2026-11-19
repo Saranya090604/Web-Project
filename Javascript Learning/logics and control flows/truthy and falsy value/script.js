@@ -6,8 +6,8 @@ const x = [0, 0, 0];
 
 // falsy = 0, false, '',null, undefined, NaN,
 
-if ([0, 0, 0]) {
-  console.log("this is truthy value");
-} else {
-  console.log("this is false");
-}
+// if ([0, 0, 0]) {
+//   console.log("this is truthy value");
+// } else {
+//   console.log("this is false");
+// }
