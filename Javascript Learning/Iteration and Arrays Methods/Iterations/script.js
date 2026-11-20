@@ -39,5 +39,5 @@ const colobj = {
   color4: "purple",
 };
 for (key in colobj) {
-  console.log(colobj[key]);
+  console.log(key, colobj[key]);
 }
