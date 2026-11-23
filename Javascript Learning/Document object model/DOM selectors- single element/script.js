@@ -21,7 +21,18 @@
 // title.style.background = "pink";
 // title.style.borderRadius = "5px";
 
-const addButton = document.getElementsByClassName("btn")[0];
-addButton.style.backgroundColor = "orange";
-addButton.style.color = "white";
-addButton.style.border = "none";
+// const addButton = document.getElementsByClassName("btn")[0];
+// addButton.style.backgroundColor = "orange";
+// addButton.style.color = "white";
+// addButton.style.border = "none";
+
+// locating with queryselector
+
+// console.log(document.querySelector("h1"));
+// console.log(document.querySelector("#app-title"));
+// console.log(document.querySelector(".container"));
+// console.log(document.querySelector("#filter"));
+// console.log(document.querySelector("li:nth-child(2)").innerText);
+
+const list_second_item = document.querySelector("li:nth-child(2)");
+list_second_item.innerText = "Apple Juice";

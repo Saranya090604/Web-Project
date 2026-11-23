@@ -11,7 +11,7 @@ foods.push(junk_foods);
 // Concatination of arrays
 // y = foods.concat(junk_foods);
 
-// Spread Operator
+// Spread Operator ---> it seperate each element
 // z = [...foods, ...junk_foods];
 
 // Flattening

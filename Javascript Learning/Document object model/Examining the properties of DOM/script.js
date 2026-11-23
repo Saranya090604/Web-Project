@@ -12,5 +12,5 @@
 
 // get al the forms
 output = document.forms;
-// Everythinh in the HTML tag
+// Everything in the HTML tag
 console.log(output);
