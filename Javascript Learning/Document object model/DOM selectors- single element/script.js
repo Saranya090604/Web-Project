@@ -36,3 +36,4 @@
 
 const list_second_item = document.querySelector("li:nth-child(2)");
 list_second_item.innerText = "Apple Juice";
+list_second_item.style.css = "red";
