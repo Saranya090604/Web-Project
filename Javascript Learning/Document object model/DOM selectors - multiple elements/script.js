@@ -18,9 +18,9 @@ console.log(list_items);
 // short form
 // social.forEach((values) => console.log(values));
 
-list_items.forEach((item, index) => {
-  item.style.color = "green";
-  if (index == 3) {
-    item.remove();
-  }
-});
+// list_items.forEach((item, index) => {
+//   item.style.color = "green";
+//   if (index == 3) {
+//     item.remove();
+//   }
+// });
